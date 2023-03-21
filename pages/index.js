@@ -2,9 +2,14 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Toggle from "react-toggle";
 
-import { SelectScore, SupplyScore } from "./Score";
+import { SelectScore, SupplyScore } from "../components/Score";
 
-import { byteLength, generateChoices, jsonBlob, lowMiddleOrHigh } from "./util";
+import {
+    byteLength,
+    generateChoices,
+    jsonBlob,
+    lowMiddleOrHigh,
+} from "../components/util";
 
 const HardModeInput = ({ changeHandler, clickHandler, guess }) => {
     return (
