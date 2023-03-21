@@ -1,0 +1,68 @@
+.App {
+    text-align: center;
+}
+
+header {
+    font-size: 1.5rem;
+    margin-top: 1em;
+}
+
+.codeblock {
+    margin: 1em;
+}
+
+.codeblock pre {
+    background: #d3d3d3;
+    padding: 1.5em;
+    text-align: left;
+    overflow: scroll;
+    width: 80vw;
+    height: 60vh;
+}
+
+header .small-text {
+    font-size: 1rem;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.choices {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+button {
+    font-size: 1.5rem;
+    font-weight: 800;
+    border-radius: 0.35em;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.answerInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 75%;
+}
+
+.answerInput input {
+    height: 2em;
+}
+
+.score-mobile {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0.5em 0;
+}
